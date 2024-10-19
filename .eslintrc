@@ -1,0 +1,34 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended"
+  ],
+  "plugins": ["@typescript-eslint", "react"],
+  "rules": {
+    "@next/next/no-document-import-in-page": "off", // Disable specific Next.js rule
+    "react/react-in-jsx-scope": "off", // Disable React import rule (only needed in Next.js)
+    "arrow-body-style": ["error", "as-needed"],
+    "array-callback-return": "error",
+    "camelcase": ["error", { "properties": "never" }],
+    "consistent-return": "error",
+    "curly": ["error", "all"],
+    "default-case": "error",
+    "prefer-template": "error",
+    "accessor-pairs": "error",
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "no-multi-str": "error",
+    "no-useless-escape": "error",
+    "no-trailing-spaces": "off", // Disable trailing spaces rule
+    "react/no-multi-comp": "error",
+    "import/first": "error",
+    "import/order": "error",
+    "linebreak-style": "off", // Disable linebreak rule
+    "@typescript-eslint/explicit-module-boundary-types": "off" // Allow implicit return types
+  },
+  "globals": {
+    "React": "writable" // Allow React global variable
+  }
+}
