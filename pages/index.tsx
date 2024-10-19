@@ -102,7 +102,7 @@ const Portfolio = () => {
                 paddingX={0}
                 flexDirection="row"
               >
-                <FeaturedWorks />
+                {/* <FeaturedWorks /> */}
               </Box>
             </FadeInLayout>
             <FadeInLayout>
