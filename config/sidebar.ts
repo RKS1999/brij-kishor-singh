@@ -10,12 +10,12 @@ type SocialMedia = {
 export const SocialMedias: SocialMedia[] = [
   {
     label: "Facebook",
-    href: "https://www.facebook.com/people/Roshan-Kumar-Singh/100017131605920/",
+    href: "https://www.facebook.com/profile.php?id=100022976746724",
     icon: FaFacebook,
   },
   {
     label: "WhatsApp",
-    href: "https://api.whatsapp.com/qr/IGKGILKADE5JH1?autoload=1&app_absent=0",
+    href: "https://wa.me/qr/W6NQO46Y2OPAM1",
     icon: FaWhatsapp,
   },
   {
