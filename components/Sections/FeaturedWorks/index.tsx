@@ -52,7 +52,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={1}
             title="CRM ISPAT PRIVATE LIMITED"
-            description="Working as Shift Manager From 2021 to Till Now... at West Bengal, India"
+            description="Working as Furnish Incharge From 2021 to Till Now... at West Bengal, India"
             src="/experience/Billet.jpg"
             height={{ base: "100px", md: "200px", "2xl": "200px" }}
             ctaUrl="https://www.zaubacorp.com/company/CRM-ISPAT-PRIVATE-LIMITED/U27310WB2004PTC098223"
