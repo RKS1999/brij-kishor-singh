@@ -28,12 +28,10 @@ const FeaturedWorksSection = () => {
           fontVariantCaps: "small-caps",
         }}
       >
-        Some of my works.
+        Experiences...
       </Heading>
       <Text variant="description">
-        During my extensive training period, I successfully completed various
-        projects, including company assignments and case studies, showcasing my
-        skills and expertise.
+        16+ Years Work Experience in steel sector as Frunish Incharge.
       </Text>
 
       <MotionGrid
@@ -42,47 +40,42 @@ const FeaturedWorksSection = () => {
         gap={{ base: 5, md: 6 }}
         variants={galleryStagger}
       >
-        <Heading
+        {/* <Heading
           size="1xl"
           style={{
             fontVariantCaps: "small-caps",
           }}
         >
           Next.js
-        </Heading>
+        </Heading> */}
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
-            idx={0}
-            title="Online Shopping"
-            description="Developed an Online Shopping app using Next.js, TanStack
-            Query, and Redux Toolkit for state management, with React
-            Hook Form for form handling and validation, featuring a
-            responsive UI with MUI and styled-components."
-            src="/projects/Online-Shopping.png"
-            height={{ base: "130px", md: "225px", "2xl": "300px" }}
-            ctaUrl="https://next-online-shopping.netlify.app/"
+            idx={1}
+            title="CRM ISPAT PRIVATE LIMITED"
+            description="Working as Shift Manager From 2021 to Till Now... at West Bengal, India"
+            src="/experience/Billet.jpg"
+            height={{ base: "100px", md: "200px", "2xl": "200px" }}
+            ctaUrl="https://www.zaubacorp.com/company/CRM-ISPAT-PRIVATE-LIMITED/U27310WB2004PTC098223"
             isMobile={isMobile}
           />
         </MotionGridItem>
 
-        <Heading
+        {/* <Heading
           size="1xl"
           style={{
             fontVariantCaps: "small-caps",
           }}
         >
           React.js
-        </Heading>
+        </Heading> */}
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
-            idx={1}
-            title="WTS"
-            src="/projects/WTS.png"
-            description="Built a product management system with React and TanStack
-            Query for server-state management, using React Router for
-            routing and Redux Toolkit for global state handling"
-            height={{ base: "130px", md: "225px", "2xl": "300px" }}
-            ctaUrl=" https://wts-products-management.netlify.app/"
+            idx={2}
+            title="BRAHM ALLOYS LIMITED"
+            description="Worked as Furnish Incharge From 2018 to 2021 at West Bengal, India"
+            src="/experience/Billet.jpg"
+            height={{ base: "100px", md: "200px", "2xl": "200px" }}
+            ctaUrl="https://www.zaubacorp.com/company/BRAHM-ALLOYS-LIMITED/U27109WB2004PLC099270"
             objectPosition="right 20%"
             isMobile={isMobile}
           />
@@ -90,31 +83,12 @@ const FeaturedWorksSection = () => {
 
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
-            idx={2}
-            title="YouShop"
-            description="Developed a fully responsive e-commerce web application using
-            React and Redux Toolkit for state management, React Hook
-            Form for form validation, and Bootstrap for a modern UI.
-            Integrated Redux Persist for state persistence and handled
-            asynchronous operations with Redux Toolkit."
-            src="/projects/You-Shop.png"
-            height={{ base: "130px", md: "225px", "2xl": "300px" }}
-            ctaUrl="https://ecom-youshop.netlify.app/"
-            isMobile={isMobile}
-          />
-        </MotionGridItem>
-
-        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
-          <FeaturedCard
             idx={3}
-            title="Crypto Coin"
-            description="Created an interactive cryptocurrency dashboard using React,
-            Redux Toolkit, and TanStack Query for optimized data fetching.
-            Implemented data visualization with ApexCharts and user
-            authentication features."
-            src="/projects/Crypto-Coin.png"
-            height={{ base: "130px", md: "225px", "2xl": "300px" }}
-            ctaUrl="https://real-crypto-coins.netlify.app/"
+            title="JAI VENKATESH TOWERS PRIVATE LIMITED"
+            description="Worked as Furnish Incharge From 2015 to 2018 at West Bengal, India"
+            src="/experience/Billet.jpg"
+            height={{ base: "100px", md: "200px", "2xl": "200px" }}
+            ctaUrl="https://www.zaubacorp.com/company/JAI-VENKATESH-TOWERS-PRIVATE-LIMITED/U70102WB2009PTC133920"
             objectPosition="right 20%"
             isMobile={isMobile}
           />
@@ -123,18 +97,31 @@ const FeaturedWorksSection = () => {
         <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
             idx={4}
-            title="Weather Report"
-            description="Developed a weather web application using React and TanStack Query, enabling users to search cities and view detailed weather forecasts, including temperature, humidity, pressure, and a 30-day forecast."
-            src="/projects/Weather-Report.png"
-            height={{ base: "130px", md: "225px", "2xl": "300px" }}
-            ctaUrl="https://real-weather-report.netlify.app/"
+            title="CP RE-ROLLERS LIMITED"
+            description="Worked as Furnish Incharge From 2012 to 2015 at West Bengal, India"
+            src="/experience/Billet.jpg"
+            height={{ base: "100px", md: "200px", "2xl": "200px" }}
+            ctaUrl="https://www.zaubacorp.com/company/C-P-RE-ROLLERS-LIMITED/U28112WB2001PLC093968"
+            objectPosition="right 20%"
+            isMobile={isMobile}
+          />
+        </MotionGridItem>
+
+        <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
+          <FeaturedCard
+            idx={5}
+            title="MAHA GAURI STRIPS PRIVATE LIMITED"
+            description="Worked as Furnish Incharge From 2008 to 2012 at West Bengal, India"
+            src="/experience/Billet.jpg"
+            height={{ base: "100px", md: "200px", "2xl": "200px" }}
+            ctaUrl="https://www.zaubacorp.com/company/MAHA-GAURI-STRIPS-PRIVATE-LIMITED/U27310WB2013PTC197255"
             isMobile={isMobile}
           />
         </MotionGridItem>
 
         {/* <MotionGridItem colSpan={6} variants={fadeInUpSlower}>
           <FeaturedCard
-            idx={5}
+            idx={6}
             title="To-Do List"
             description="Built a customizable To-Do List application using React. Includes features like adding, editing, and deleting tasks, with state management through Redux Toolkit for efficient task handling and user-friendly interaction."
             src="/projects/To-Do-List.png"

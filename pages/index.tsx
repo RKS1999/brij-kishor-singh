@@ -68,7 +68,7 @@ const Portfolio = () => {
           <Stack w="100%" spacing={24}>
             <FadeInLayout>
               <Box
-                id="aboutMe"
+                id="about"
                 className="contentRow"
                 minH={{ lg: "100vh" }}
                 display="flex"
@@ -83,7 +83,7 @@ const Portfolio = () => {
             </FadeInLayout>
             <FadeInLayout>
               <Box
-                id="jobs"
+                id="educations"
                 className="contentRow"
                 paddingTop={{ base: 0, lg: 20 }}
                 paddingBottom={{ base: 12, lg: 10 }}
@@ -95,14 +95,14 @@ const Portfolio = () => {
             </FadeInLayout>
             <FadeInLayout>
               <Box
-                id="works"
+                id="experiences"
                 className="contentRow"
                 paddingTop={{ base: 0, lg: 20 }}
                 paddingBottom={{ base: 12, lg: 10 }}
                 paddingX={0}
                 flexDirection="row"
               >
-                {/* <FeaturedWorks /> */}
+                <FeaturedWorks />
               </Box>
             </FadeInLayout>
             <FadeInLayout>

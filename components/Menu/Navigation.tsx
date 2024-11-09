@@ -113,7 +113,7 @@ const Navigation = () => {
           paddingBottom={isMobile ? 10 : "0"}
           onClick={() => isMobile && toggleOpen()}
         >
-          {["About", "Educations", "Projects", "Contact"].map((item) => (
+          {["About", "Educations", "Experiences", "Contact"].map((item) => (
             <Box
               key={item}
               width={{ base: "100%", lg: "auto" }}

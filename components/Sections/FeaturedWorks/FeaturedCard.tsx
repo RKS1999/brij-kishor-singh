@@ -77,7 +77,7 @@ const ProjectDescription = memo(({
   >
     <Stack spacing={1} width="100%">
       <Text
-        fontSize={{ base: 'md', md: 'large', '2xl': 'xx-large' }}
+        fontSize={{ base: 'md', md: 'large', '2xl': 'large' }}
         fontWeight="bold"
         letterSpacing={2}
         width="90%"
@@ -118,7 +118,7 @@ const ProjectDescription = memo(({
       target="_blank"
       marginY={{ base: 3, md: 0 }}
     >
-      View Project
+      Company Details
     </Button>
   </Container>
 ));
