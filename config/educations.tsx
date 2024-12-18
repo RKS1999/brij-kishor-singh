@@ -14,12 +14,7 @@ export const Educations: {
     name: "BIHAR SCHOOL EXAMINATION BOARD, PATNA",
     longName: "BIHAR SCHOOL EXAMINATION BOARD, PATNA",
     duration: "Matric Pass at 1998",
-    roles: [
-      <>
-        I completed my Metric from Bihar School Examination Board, Patna in
-        1998.
-      </>,
-    ],
+    roles: [<>I completed my 8th, Bihar in 1996.</>],
   },
 }
 

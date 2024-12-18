@@ -78,7 +78,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={FaGraduationCap} color={emphasis} fontSize="1.5em" />
-            Education : Matric Pass (10th)
+            Education : 8th Pass
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={FaBriefcase} color={emphasis} fontSize="1.4em" />
