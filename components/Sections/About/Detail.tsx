@@ -51,7 +51,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         steel sector.
         <br /> <br />
       </Text>
-      <Tooltip label="React JS Developer" aria-label="I Love Coding" hasArrow>
+      <Tooltip label="FURNISH INCHARGE" aria-label="I Love Coding" hasArrow>
         <Text as="span" variant="emphasis">
           Personal & Educational Details:
         </Text>
